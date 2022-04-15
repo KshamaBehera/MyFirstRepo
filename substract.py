@@ -1,3 +1,6 @@
 a = 6
 b = 5
-print(a-b)
+try:
+	print(a-b)
+except Exception as e:
+	print(e)
